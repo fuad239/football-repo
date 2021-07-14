@@ -1,0 +1,170 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* common style */
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    padding-left: 15px;
+    margin: 15px 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+/* Banner section */
+.banner{
+    display:flex;
+    background-color: blue;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding: 86px 0px;
+    margin-bottom: 70px;
+}
+
+.btext{
+    height: 301px;
+    width: 485px;
+    padding-left: 15px;
+}
+
+.btext .title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 80px;
+    color: white;
+    padding-left: 0px;
+}
+.banner img{
+    height: 438px;
+    width: 556px;
+}
+
+/* players-section */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 26px;
+    align-items: center;
+    justify-content: center;
+    width: 1050px;
+    margin-bottom: 100px;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 474px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 3px gainsboro;
+}
+
+.player img{
+    width: 300px;
+    height: 256px;
+    padding: 15px;
+}
+
+.player p{
+    text-align: justify;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+/* highlight section */
+.highlight{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 0px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.text{
+    height: 309px;
+    width: 466px;
+    margin: 60px 0px;
+    padding-left: 40px;
+ 
+}
+.htitle{
+    
+    color: #0A0826;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: 60px;
+    padding-left: 0px;
+}
+.highlight img{
+    height: 427px;
+    width: 567px;
+}
+.botton{
+    background-color: #E02C6D;
+    width: 160px;
+    color: white;
+    padding:20px 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+}
+.logo img{
+    width: 450px;
+    height: 110px;
+}
+.social-media{
+    height: 32px;
+    width: 170px;
+    border: 1px solid greenyellow;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap:11px;
+}
+.social-media img{
+    height: 32px;
+}
+footer{
+    text-align: center;
+}
+
+/* media quriy  */
+@media only screen and(max-width:668px) {
+    .banner{
+        display:flex;
+        flex-direction: column;
+        background-color: blue;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        padding: 86px 0px;
+        margin-bottom: 70px;
+    }
+    .players{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .highlight{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+}
